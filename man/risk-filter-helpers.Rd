@@ -2,16 +2,13 @@
 % Please edit documentation in R/risk_filter.R
 \name{risk-filter-helpers}
 \alias{risk-filter-helpers}
-\alias{risk_filter_fields}
-\alias{has_available_packages_field_option}
+\alias{has_available_packages_field_options}
 \alias{risk_filter_id}
 \alias{risk_filter_from_conditions}
 \alias{risk_filter_with_inserted_fields}
-\title{Retrieve all known risk fields}
+\title{Session uses the "available_packages_field" global option}
 \usage{
-risk_filter_fields(...)
-
-has_available_packages_field_option()
+has_available_packages_field_options()
 
 risk_filter_id()
 
